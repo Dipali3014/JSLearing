@@ -8,8 +8,8 @@ console.log("stateName ==>",stateName,"data type ===>",typeof stateName);
 
 var Dist = " Dist:-Satara";
 console.log("Dist ==>",Dist,"data type ==>",typeof Dist);
-
-console.log("===============================Steps of Number=====================================");
+console.log("--------------------------------------------------------------------");
+console.log("======================Steps of Number=================================");
 
 var myKids=  2
 
@@ -20,8 +20,9 @@ console.log("mySonBirthday==>" ,mySonBirthday, "data type ===>", typeof mySonBir
 
 var myDaughterBirthDay = 5_10_20
 console.log("myDaughterBirthDay==>",myDaughterBirthDay,"data type ==>",typeof myDaughterBirthDay);
+console.log("----------------------------------------------------------------------------------");
 
-console.log("=====================================Steps of Boollean==================================");
+console.log("===========================Steps of Boollean==================================");
 
 var isSunny =  false
 console.log("IsSunny==>",isSunny,"data type ===>", typeof isSunny);
@@ -31,5 +32,13 @@ console.log("IsSunny==>",isSunny,"data type ===>", typeof isSunny);
 
  var isClass =  true
  console.log("isClass==>",isClass, "data type ===>",typeof isClass);
-console.log("==================================End first assignment================================");
+ console.log("----------------------------------------------------------------------");
+ console.log("==============Difference Between Null And Undefined=======================");
+ console.log("--------------------------------Null-----------------------------------------");
+ 
+ var value= " Null :-means that their is no 0 value";
+ console.log(value);
+ console.log("-------------------------------Undefined--------------------------------");
 
+ var value="Undefined :- A variable is declare and not assigned any value then it is undefined";
+ console.log(value);
