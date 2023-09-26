@@ -23,7 +23,7 @@ console.log(
   
   var hobby1 = "hobby1===> Travelling";
   console.log(
-    "------------- Sum of total numbers in characters ----------------------------"
+    "------------- Sum of total numbers in characters -------------------------"
   );
   var totalLength = hobby1.length;
   console.log(`1.1]Length of the string is: "${totalLength}"`);
@@ -33,5 +33,5 @@ console.log(
   var hobby3 = "hobby3===> Watching T.V";
   var totalLength = hobby2.length;
   console.log(`1.3]Length of the string is: "${totalLength}"`);
-  console.log("---------------------- End ----------------------------------------");
+  console.log("---------------------- End --------------------------------------------");
   
