@@ -33,32 +33,21 @@ console.log("===========Function with no arguments and no return type====");
   swapValues("1000","2000");
 
   console.log("====================Additional Function===============================");
-  function addition(  valueOne ,valueTwo ,valueThree) {
-    var valueOne = 10.23;
-    var valueTwo = 600;
-    var valueThree = 40;
-    var result = valueOne+valueTwo+valueThree;
-    return result;
-  }
-  var addThreeValues = addition(10.23+600+40);
-  console.log("Addition of three values:" ,addThreeValues);
 
-  console.log("4.3====================Good Morning====================================")
-  function add( x,y,z) {
-    var x = "Hello";
-    var y = "Good";
-    var z = "Morning";
-    var result = x+y+z ;
-    return result;
-  }
-   var addThreeWord = add("Hello",+"Good",+"Morning");
-   console.log("Addition of three words:", addThreeWord);
 
- 
+
+   function addThreeValues(arg1,arg2,arg3) {
+    console.log(arg1+arg2+arg3);
+     
+   }
+  
+   addThreeValues ( "Addition of three values:",10.23+600+40);
+   addThreeValues("Addition of three words: Hello" , " Good " ,  " Morning ");
+
+
 
 
  
+ 
 
-
-    
-
+  
