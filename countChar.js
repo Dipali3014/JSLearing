@@ -12,7 +12,7 @@ console.log(
   ` Given string is: "I AM Learning Javascript, Language of internet"`
 );
 console.log(` Total number of character of "A" , "a" is: ${count}`);
-console.log("==========================================================");
+console.log("====================================================================");
 var str1 = "My favourite movie is LAggAn";
 var count = 0;
 var vowelsCap = "aA";
