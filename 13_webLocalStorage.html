@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <h2>Web Storage</h2>
+    <h3>Local Storage</h3>
+
+</body>
+<script>
+    console.log("Local Storage");
+    window.localStorage.setItem("name", "Mrs.Dipali Virendra Waghmare");
+    window.localStorage.setItem("city", "Mhaswad");
+    window.localStorage.setItem("pin", "415509");
+    window.localStorage.setItem("district", "Satara");
+    console.log(window.localStorage.getItem("name"));
+    console.log(window.localStorage.getItem("city"));
+    console.log(window.localStorage.getItem("pin"));
+    console.log(window.localStorage.getItem("district"));
+    window.localStorage.removeItem("city");
+    console.log("Local storage");
+
+</script>
+</html>
