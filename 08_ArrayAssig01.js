@@ -16,4 +16,23 @@ for (let index = 0; index < arrayNumber.length; index++) {
     }   
 }
 console.log(`Even Numbers in an array are:: "${even}"`);
+// use for loop
+const fruits= ["Apple","Mango","Orange","Strawberry","Grapes","Mango","Orange"];
+for (let index = 0; index < fruits.length; index++) {
+    const element = fruits[index];
+    console.log(`${element}`);
+    
+}
+ console.log("============================================================");
+//use for in loop
+ const fruits1= ["Apple","Mango","Orange","Strawberry","Grapes"];
+for (const element in fruits1){
+    console.log(fruits1[element]);
+}
 
+console.log("=============================================================");
+
+const string = 'code';
+for (let i of string){
+    console.log(i);
+}

@@ -41,7 +41,7 @@ console.log("===========Function with no arguments and no return type====");
      
    }
   
-   addThreeValues ( "Addition of three values:",10.23+600+40);
+   addThreeValues ( 10.23,600,40 );
    addThreeValues("Addition of three words: Hello" , " Good " ,  " Morning ");
 
 

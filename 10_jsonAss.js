@@ -15,17 +15,27 @@ const stringGiven=`{
 }`
 console.log(`-----------------------------------------  Putting Given Json Into Backtick ----------------------------------`);
 console.log(`------------------------------------------------------------------------------------------------------`);
+
 const personalDetail = JSON.parse(stringGiven);
+
 console.log(`Converted Given Detail  Into Object ====>>>>`);
+
 console.table(personalDetail);
+
 console.log(`Type Of After Converting Into Object====>>> ${typeof personalDetail}`);
+
 console.log(`-----------------------------------------------------------------------------------------------------`);
 let role=personalDetail.role[0];
+
 console.log(`logging word dev from role array=====>>> ${role}`);
+
 console.log(`----------------------------------------------------------------------------------------------------`);
 let lastName=personalDetail.name.split(" ");
+
 console.log(`Logged Only Last Name From Name By Using Split Method====>>>>  ${lastName[1]} `);
 console.log(`-----------------------------------------------------------------------------------------------------`);
  const date = new Date(personalDetail.doj);
+
 console.log(`Logged Only Joining Year Of Employee ====>>> ${date.getFullYear()}`);
+
 console.log(`=================================================================== * END * ====================================================`);
